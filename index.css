@@ -173,9 +173,10 @@ article:hover {
        transform: translateY(0);
 }
 }
-
-footer{
+section {
     background-image : url("img/landscape.jpg");
+}
+footer{
     height: 100%;
     width: 100%;
     margin: 0%;
