@@ -59,6 +59,10 @@ background-color: rgb(250, 250, 250);
 color: rgb(0,0,0);
 }
 
+a {
+    color : inherit;
+    text-decoration: none;
+}
 nav {
     background-color:rgb(161, 94, 106);
     display: flex;
