@@ -101,12 +101,12 @@ article:hover{
     color: rgb(0,0,0);
 }
     
-#article-1{ background-image: url("img/Education.jpg")}
-#article-2{ background-image: url("img/Professional.jpg")}
-#article-3{ background-image: url("img/Compétences.jpg")}
-#article-4{ background-image: url("img/Centresd'intérêt.jpg")}
-#article-5{ background-image: url("img/Activitésassociatives.jpg")}
-#article-6{ background-image: url("img/Contact.jpg")}
+#article-1{ background-image: url("img/education.jpg")}
+#article-2{ background-image: url("img/professional.jpg")}
+#article-3{ background-image: url("img/competences.jpg")}
+#article-4{ background-image: url("img/centresd'interet.jpg")}
+#article-5{ background-image: url("img/activitesassociatives.jpg")}
+#article-6{ background-image: url("img/contact.jpg")}
 
 
 article:hover {
