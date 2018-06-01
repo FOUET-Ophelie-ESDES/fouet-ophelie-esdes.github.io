@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Karma');
+
+* {
+    font-family:'Karma';
+}
+
+nav {
+    background-color:rgb(161, 94, 106);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    height:75px;
+    min-width:100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-items:hover {
+    background-color: rgb(105, 61, 69);
+}
+
+.nav-items a, .nav-items a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#current-nav-items {
+        background-color:rgb(75, 0, 0);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+footer{
+    background-color: peachpuff;
+    padding : 10px;
+    margin: 0%;
+    justify-content: center;
+    align-items : center;
+}
+
+
+
+/** RESPONSIVE **/
+/* Mobile */
+@media screen  and (max-width : 600px) {
+    section {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+    section a {
+        width: 80%;
+    }
+}
+
+/* Tablet */
+@media only screen  and (min-width : 600px) and (max-width : 900px) {
+    section a {
+        width: 40%;
+    }
+}
