@@ -12,5 +12,23 @@ img {
 body{
     justify-content: center;
     align-items : center;
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(161, 94, 106);
+    background-repeat : no-repeat;
+    background-position : right top;
+    background-attachment : fixed;
+    background-size : 100%;
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    padding : 5px 10px;
+  
 }
     
