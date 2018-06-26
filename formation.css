@@ -2,15 +2,17 @@
 
 article {
     height: 10%;
-
 }
 
-img {
+#ophelie {
     height: 300px;
 }
 
 body{
     justify-content: center;
     align-items : center;
+    text-align: center;
 }
-    
+
+header{ text-align: left;
+}
