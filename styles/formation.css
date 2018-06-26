@@ -16,7 +16,7 @@ body{
 }
 
 footer{
-    height: 100px;
+    height: 10%;
     width: 100%;
     margin: 0%;
     background-color: rgb(161, 94, 106);
@@ -28,7 +28,9 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items : center;
-    padding : 5px 10px;
-  
+    padding : 10px 20px;
 }
-    
+.partage{
+    display: flex;
+    flex-direction: row;
+}

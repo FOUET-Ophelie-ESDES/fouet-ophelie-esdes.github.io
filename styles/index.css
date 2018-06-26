@@ -115,6 +115,7 @@ section a {
 #about article {
     width: 100%;
     padding: 15px;
+    margin:0%;
     background-color: rgb(161, 94, 106);
     color: white;
     text-align: center;
@@ -237,4 +238,6 @@ footer{
 .partage{
     display: flex;
     flex-direction: row;
+    background-color: rgb(161, 94, 106);
 }
+
