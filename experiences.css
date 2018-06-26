@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    text-align: left;
+}
